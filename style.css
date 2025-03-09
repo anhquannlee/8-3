@@ -29,7 +29,7 @@ body {
     --color-bg: #0c0c0c;
     --color-link: #6b5537;
 	--color-link-hover: #fff;
-	--color-content-title-sub: #6b5537;
+	--color-content-title-sub: #ffc0cb;
     color: var(--color-text);
     background-color: var(--color-bg);
     --cursor-stroke: #6b5537;
@@ -259,8 +259,8 @@ a:focus {
 .content__title {
 	font-family: myFont;
 	font-weight: 400;
-	font-size: 10vw;
-	margin: 10px 0;
+	font-size: 9vw;
+	margin: 15px 0;
 	line-height: 1;
 	position: relative;
 }
@@ -363,6 +363,7 @@ a:focus {
     font-size: 16px;
     color: #d63384;
     font-weight: bold;
+	font-size: 0.85rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
